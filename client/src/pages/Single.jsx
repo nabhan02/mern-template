@@ -19,7 +19,8 @@ function Single() {
           </text>
         </div>
         <div className="Left-box">
-          <h1>link+description?</h1>
+          <h1><a href="https://www.smashbros.com/en_US/" title="filler" target="_blank">link</a>
+            +description?</h1>
         </div>
         <div className="Right-box">
           {Review(1)} Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis fugit quod neque perferendis ab minus ea cumque quae! Dolorum ipsa, corrupti, praesentium quo eaque aperiam harum pariatur ipsam quae, ex dolorem accusamus numquam quam itaque sapiente quis. Ullam, autem eaque tempora minima quia est deserunt explicabo saepe, ipsam voluptatem labore.
