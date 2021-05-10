@@ -1,3 +1,7 @@
+.App {
+    text-align: center;
+}
+
 .list-button{
     float: left;
     width: 100px;
@@ -21,4 +25,35 @@
     font-size: 50px;
     font-style: bold;
     text-align: center;
+}
+
+
+.Top-box {
+    background-color: #73fb61;
+    width: 90%;
+    height: 250px;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+  
+  .Left-box {
+    background-color: red;
+    width: 30%;
+    height: 450px;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 5px;
+    float: left;
+}
+  
+  .Right-box {
+    background-color: rgb(106, 106, 224);
+    width: 55%;
+    height: 450px;
+    border-radius: 12px;
+    margin-left: 40%;
+    margin-top: 20px;
+    padding: 5px;
 }
