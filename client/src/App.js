@@ -1,21 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Single from './pages/Single';
 
 function App() {
   return (
-    <div className="App">
-      <div className="Top-box">
-        <h1>
-          picture background here
-        </h1>
-      </div>
-      <div className="Left-box">
-        <h1>link+description?</h1>
-      </div>
-      <div className="Right-box">
-        <h1>Reviews</h1>
-      </div>
-    </div>
+    <Single />
   )
   /*
   return (
