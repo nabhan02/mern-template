@@ -5,7 +5,10 @@ function Single() {
     return (
       <div className="App">
         <div className="Top-box">
-          <button className="list-button">
+          <button
+          className="list-button"
+          onClick = {() => window.location = "/multi"}
+          >
             <b>List by genre</b>
           </button>
           <button className="random-button">
