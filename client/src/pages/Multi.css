@@ -1,3 +1,223 @@
 .App {
-    text-align: center;
+  text-align: center;
 }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Top-box {
+  background-color: #3bd17a;
+  width: 90%;
+  height: 250px;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.Table-title {
+  text-align: center;
+  height: 30px;
+  float: center;
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 2.5%;
+  color: rgb(0, 0, 0);
+}
+
+.Table-data {
+  color: azure;
+  text-align: left;
+  background-color: rgb(102, 143, 231);
+  float: center;
+  margin-top: .25%;
+  margin-left: 38%;
+  width: 23%;
+  border-spacing: 150px;
+  border-collapse: separate;
+  border-color: black;
+}
+
+th,
+td {
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#left-column {
+  color: white;
+  width: 100%;
+}
+
+#middle-column {
+  color: rgb(182, 231, 102);
+}
+
+#right-column {
+  color: rgb(226, 128, 104);
+}
+
+#table-headers {
+  background-color: teal;
+}
+
+#single-game {
+  background-color: red;
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+  width: 10%;
+  height: 20%;
+}
+
+#multi-game {
+  background-color: lightblue;
+  vertical-align: middle;
+  float: left;
+  width: 10%;
+  height: 20%;
+}
+
+#multi-game:hover .dropdown {
+  display: block;
+}
+
+#multi-game:hover {background-color: #c6f08e;}
+
+.drpdwn {
+  position: relative;
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position:absolute;
+  background-color: lightblue;
+  min-width: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+ORIGINAL
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .Top-box {
+    background-color: #73fb61;
+    width: 90%;
+    height: 250px;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-top: 25px;
+  }
+  
+  .Left-box {
+    background-color: red;
+    width: 25%;
+    height: 450px;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    float: left;
+  }
+
+  .Middle-box {
+      background-color: rgb(234, 252, 72);
+      width: 25%;
+      height: 450px;
+      border-radius: 12px;
+      margin-left: 5%;
+      margin-right: 4%;
+      margin-top: 20px;
+      float: middle;
+  }
+  
+  .Right-box {
+    background-color: blue;
+    width: 25%;
+    height: 450px;
+    border-radius: 12px;
+    margin-left: 4%;
+    margin-right: 5%;
+    margin-top: 20px;
+    float: left;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }*/
